@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    runs-on: endeavouros
+    runs-on: endeavouros-latest
     steps:
       - uses: actions/checkout@v2
       - name: Compile C++ 2017
